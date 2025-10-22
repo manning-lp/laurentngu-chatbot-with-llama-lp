@@ -1,0 +1,1 @@
+time wasmedge --dir .:. --nn-preload default:GGML:AUTO:Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf llama-simple.wasm --prompt "as an entrepreneurial project or MVP, should I start with RAG or finetuning LLM? Goal is to ship something fast, even a demo" --n-predict 150 --log-enable
